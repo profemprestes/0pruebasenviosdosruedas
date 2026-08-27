@@ -1,7 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
 import PrivacyContent from './PrivacyContent';
-import CarruselRedes from '@/src/components/layout/CarruselRedes';
 
 const baseUrl = 'https://www.enviosdosruedas.com';
 
@@ -23,11 +22,6 @@ export default function PoliticaPrivacidadPage() {
       {/* Interactive privacy policy reader */}
       <div className="relative z-10 font-sans">
         <PrivacyContent />
-      </div>
-
-      {/* Unified social networking carousel loop */}
-      <div className="relative z-10">
-        <CarruselRedes />
       </div>
     </main>
   );
